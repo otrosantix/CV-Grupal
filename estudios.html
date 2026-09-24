@@ -1,12 +1,58 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Juan Quintero</title>
-    <link rel='stylesheet' href='main.css'>
-</head>
-<body>
-    
-</body>
-</html>
+<!DOCTYPE html> <!-- Define que este documento es de tipo HTML5 -->
+<html lang="es"> <!-- Abre la etiqueta principal e indica que el idioma es español -->
+<head> <!-- Abre la sección de configuración interna y metadatos -->
+  <meta charset="utf-8"> <!-- Configura la codificación para leer tildes y la letra Ñ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea adaptable a celulares y tablets -->
+  <title>Estudios  - Juan Quintero</title> <!-- Texto que aparece en la pestaña superior del navegador -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Conecta los estilos modernos de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"> <!-- Conecta la librería de íconos de Bootstrap -->
+</head> <!-- Cierra la sección de configuración -->
+<body> <!-- Abre el cuerpo visible de la página web -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> <!-- Crea una barra de navegación oscura fija arriba -->
+    <div class="container"> <!-- Contenedor que centra y alinea los elementos de la barra -->
+      <a class="navbar-brand" href="index.html">Juan Quintero</a> <!-- Logotipo o nombre que lleva a la página de inicio -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"> <!-- Botón desplegable para celulares -->
+        <span class="navbar-toggler-icon"></span> <!-- Icono de las tres rayitas del botón móvil -->
+      </button> <!-- Cierra el botón del menú -->
+      <div class="collapse navbar-collapse" id="navMenu"> <!-- Agrupador colapsable de los enlaces del menú -->
+        <ul class="navbar-nav ms-auto"> <!-- Lista de opciones del menú alineada a la derecha -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+          <li class="nav-item"><a class="nav-link" href="presentacion.html">Presentación</a></li> <!-- Enlace a la presentación -->
+          <li class="nav-item"><a class="nav-link" href="datos-personales.html">Mis datos</a></li> <!-- Enlace a datos personales -->
+          <li class="nav-item"><a class="nav-link active" href="estudios.html">Estudios</a></li> <!-- Enlace actual de estudios resaltado como activo -->
+          <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li> <!-- Enlace a habilidades -->
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li> <!-- Enlace a proyectos -->
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li> <!-- Enlace a contacto -->
+        </ul> <!-- Cierra la lista de opciones -->
+      </div> <!-- Cierra el contenedor colapsable -->
+    </div> <!-- Cierra el contenedor de la barra -->
+  </nav> <!-- Cierra la barra de navegación -->
+  <main> <!-- Abre la sección principal con el contenido central -->
+    <section class="container py-5"> <!-- Contenedor con espacio vertical superior e inferior -->
+      <p class="text-uppercase text-muted small mb-1">Formación Académica</p> <!-- Pequeño texto superior en mayúsculas y gris -->
+      <h2 class="mb-0">Mis Estudios</h2> <!-- Título principal de la sección -->
+      <hr class="w-25 my-3"> <!-- Línea decorativa horizontal corta -->
+      <p class="text-secondary mb-4">Trayectoria educativa y desarrollo técnico profesional.</p> <!-- Subtítulo descriptivo -->
+      <div class="row g-4"> <!-- Fila para organizar elementos en cuadrícula con espacio -->
+        <div class="col-12"> <!-- Columna que abarca todo el ancho disponible -->
+          <div class="card shadow-sm border-0"> <!-- Tarjeta visual con sombra ligera y sin bordes -->
+            <div class="card-body p-4"> <!-- Cuerpo interno de la tarjeta con espacio de relleno -->
+              <h4 class="card-title text-primary">Análisis y Desarrollo de Software (ADSO)</h4> <!-- Título principal de la tarjeta en azul -->
+              <h6 class="card-subtitle mb-2 text-muted">Servicio Nacional de Aprendizaje (SENA) - Centro Industrial de Mantenimiento y Manufactura (CIMM), Sogamoso</h6> <!-- Subtítulo con institución y sede -->
+              <p class="text-muted small mb-2">Ficha: 3411234</p> <!-- Texto pequeño con el número de la ficha -->
+              <p class="card-text">Formación técnica enfocada en el análisis, diseño, desarrollo e implementación de software bajo estándares de calidad y metodologías ágiles de programación.</p> <!-- Descripción del programa -->
+            </div> <!-- Cierra el cuerpo de la tarjeta -->
+          </div> <!-- Cierra la tarjeta -->
+        </div> <!-- Cierra la columna -->
+      </div> <!-- Cierra la fila -->
+    </section> <!-- Cierra la sección de estudios -->
+  </main> <!-- Cierra el contenido principal -->
+  <footer class="bg-dark text-white text-center py-4"> <!-- Pie de página oscuro, centrado y con espacio -->
+    <div class="container"> <!-- Contenedor para alinear el texto del pie -->
+      <p class="mb-2">&copy; juan quintero — Todos los derechos reservados</p> <!-- Texto de derechos de autor -->
+      <a href="https://wa.me/573001234567" target="_blank" class="text-white fs-5"><i class="bi bi-whatsapp"></i></a> <!-- Enlace al ícono de WhatsApp -->
+    </div> <!-- Cierra el contenedor del pie -->
+  </footer> <!-- Cierra el pie de página -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Archivo JavaScript de Bootstrap para componentes interactivos -->
+</body> <!-- Cierra el cuerpo de la página -->
+</html> <!-- Cierra por completo el documento HTML -->

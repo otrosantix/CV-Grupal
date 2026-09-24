@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Pablo Quintero Laverde - CV</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> <!--Configura la Barra de Navegacion
+    de misma manera que configura que colapsa a un tamaño en el que aparece el menu hamburguesa configura color
+    y fijacion en la parte superior-->
+    <div class="container"><!--Configura el contenedor de la barra de navegacion-->
+      <a class="navbar-brand" href="index.html">Juan Quintero</a><!--la clase navbar-brand define el logo o 
+      nombre del sitio web en la barra de navegacion-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"> <!-- Botón hamburguesa responsivo para telefonos moviles que se despliuega-->
+        <span class="navbar-toggler-icon"></span><!-- Icono del botón hamburguesa -->
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu"><!-- Contenedor de los elementos del menú que se colapsa en pantallas pequeñas -->
+        <ul class="navbar-nav ms-auto"><!-- Lista de elementos del menú de navegación alineados a la derecha -->
+          <!-- Elementos del menú en lista cuando esta en menu  hamburguesa y en horizontal cuando no se ah colapsado-->
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="presentacion.html">Presentación</a></li>
+          <li class="nav-item"><a class="nav-link" href="datos-personales.html">Mis datos</a></li>
+          <li class="nav-item"><a class="nav-link" href="estudios.html">Estudios</a></li>
+          <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-dark text-white text-center py-5"><!-- Encabezado de la página -->
+    <div class="container py-4"><!-- Contenedor del encabezado con padding-->
+      <h1 class="display-4 fw-bold mb-3">Juan Pablo Quintero Laverde</h1> <!--Es el título principal que muestra tu nombre en grande, negrita y con espacio debajo-->
+      <p class="lead mb-4">Estudiante de Análisis y Desarrollo de Software</p><!-- Es un párrafo destacado que muestra tu perfil profesional y lo separa del siguiente elemento -->
+      <a href="presentacion.html" class="btn btn-primary btn-lg px-4">Sobre mí</a> <!-- Botón para acceder a la sección de presentación -->
+    </div>
+  </header>
+
+  <main>
+    <section class="container text-center py-5">
+      <p class="text-muted mb-0">Sogamoso, Boyacá</p>
+      <hr class="w-25 mx-auto my-3">
+      <p class="text-secondary">
+        Este es mi currículum en línea: aquí encontrarás mis datos personales, mis habilidades,
+        los proyectos en los que he trabajado y un formulario para contactarme.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-2">&copy; Juan Quintero — Todos los derechos reservados</p>
+      <a href="https://wa.me/573001234567" target="_blank" class="text-white fs-5"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white fs-5 ms-3" title="Volver arriba"><i class="bi bi-arrow-up-circle"></i></a>
+    </div>
+    
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

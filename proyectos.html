@@ -37,25 +37,37 @@
       <hr class="w-25 my-3">
       <p class="text-secondary mb-4">Estos son algunos de mis proyectos en curso y trabajos realizados.</p>
 
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card h-100 shadow-sm">
-            <img src="img/The plait.jpeg" class="card-img-top" alt="Proyecto 1">
-            <div class="card-body">
-              <h3 class="card-title h5">Proyecto 1</h3>
-              <p class="card-text text-secondary">Proyecto de grado: torneo de fútbol sala "MALEJU".</p>
+            <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="1"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/The plait.jpeg" class="d-block w-100" alt="Proyecto 1">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h5>Proyecto 1</h5>
+              <p>Proyecto de grado: torneo de fútbol sala "THE PLAIT".</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/SegurApp.jpeg" class="d-block w-100" alt="Proyecto 2">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h5>Proyecto 2</h5>
+              <p>Proyecto del SENA: SegurApp (Seguridad y Salud en el Trabajo).</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card h-100 shadow-sm">
-            <img src="img/SegurApp.jpeg" class="card-img-top" alt="Proyecto 2">
-            <div class="card-body">
-              <h3 class="card-title h5">Proyecto 2</h3>
-              <p class="card-text text-secondary">Proyecto del SENA: SegurApp (Seguridad y Salud en el Trabajo).</p>
-            </div>
-          </div>
-        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
       </div>
     </section>
   </main>
